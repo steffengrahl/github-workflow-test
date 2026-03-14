@@ -23,5 +23,5 @@ jobs:
         run: vendor/bin/phpstan analyse -c phpstan.neon -v
 
       - name: CodeSniffer
-        run: vendor/bin/phpcs --standard=PSR12 -v inc
+        run: vendor/bin/phpcs --standard=phpcs.xml -v
 
