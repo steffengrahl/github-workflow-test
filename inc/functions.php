@@ -6,3 +6,6 @@ function hellowWorld(string $name = 'world'): string
 {
     return 'hello ' . $name;
 }
+
+echo 'something';
+
