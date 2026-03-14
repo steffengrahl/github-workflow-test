@@ -22,3 +22,6 @@ jobs:
       - name: PHPStan
         run: vendor/bin/phpstan analyse inc -l 0 -vvv
 
+      - name: CodeSniffer
+        run: vendor/bin/phpcs --standard=PSR12 -vvv inc
+
