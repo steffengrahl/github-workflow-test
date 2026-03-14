@@ -20,5 +20,5 @@ jobs:
       - run: composer install --no-progress --prefer-dist
 
       - name: PHPStan
-        run: vendor/bin/phpstan analyse config -l 0 -vvv
+        run: vendor/bin/phpstan analyse inc -l 0 -vvv
 
